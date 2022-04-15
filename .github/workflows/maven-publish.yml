@@ -33,4 +33,4 @@ jobs:
       env:
         GITHUB_USERNAME: ${{ github.GITHUB_USERNAME }}
         GITHUB_TOKEN: ${{ github.GITHUB_TOKEN }}
-      run: mvn -s $GITHUB_WORKSPACE/.github/workflows/settings.xml -B package --file pom.xml
+      run: mvn -s $GITHUB_WORKSPACE/.github/workflows/settings.xml -B package --file pom.xml deploy

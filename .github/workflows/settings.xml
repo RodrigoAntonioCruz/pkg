@@ -29,7 +29,7 @@
         <server>
             <id>github</id>
             <username>RodrigoAntonioCruz</username>
-            <password>K@ka2128</password>
+            <password>${{ github.GITHUB_TOKEN }}</password>
         </server>
     </servers>
 
